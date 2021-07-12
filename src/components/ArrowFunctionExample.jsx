@@ -14,6 +14,10 @@ class ArrowFunctionExample extends Component {
         //ES6 Arrow Function
         const helloGalaxy = () => { console.log("Hello Galaxy!") }
         
+        helloWorld(); // Hello World
+        helloGalaxy(); // Hello Galaxy!
+
+
 
 
         return (
