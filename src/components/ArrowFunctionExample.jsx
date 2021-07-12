@@ -24,7 +24,7 @@ class ArrowFunctionExample extends Component {
             return 5 + randNum
         })
 
-
+        const randomNumES6 = nums.map(randNum => 5 + randNum)
 
         return (
             <div>
