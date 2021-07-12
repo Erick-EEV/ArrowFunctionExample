@@ -18,6 +18,12 @@ class ArrowFunctionExample extends Component {
         helloGalaxy(); // Hello Galaxy!
 
 
+        const nums = [12, 48, 22, 7, 95, 33]
+
+        const randomNumES5 = nums.map(function(randNum) {
+            return 5 + randNum
+        })
+
 
 
         return (
